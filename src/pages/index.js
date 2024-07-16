@@ -47,7 +47,7 @@ export default function Home() {
                 <Link
                   className="md:p-2 md:px-4 md:text-base hover:dark:border-light dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light font-semibold rounded-lg p-2.5 px-6 flex items-center text-light bg-black text-lg
                   border-2 border-solid border-transparent hover:text-dark hover:bg-light hover:border-dark"
-                  href={"/dummy.pdf"}
+                  href={"/CVV.docx"}
                   download={true}
                   target="_blank"
                 >
