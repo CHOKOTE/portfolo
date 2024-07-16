@@ -2,7 +2,7 @@ import AnimatedText from '@/component/AnimatedText'
 import Layout from '@/component/Layout'
 import Head from 'next/head'
 import React, { useEffect, useRef } from 'react'
-import profilePic2 from '../../public/images/profile/developer-pic-2.jpg'
+import profilePic2 from '../../public/images/profile/chokote.jpg'
 import Image from 'next/image'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import Skill from '@/component/Skill'
@@ -48,7 +48,7 @@ const About = () => {
 
             <div className='xl:col-span-4 md:order-2 col-span-3 md:col-span-8 flex flex-col justify-start items-start'>
                 <h2 className='mb-4 text-lg font-bold text-dark uppercase dark:text-white '>Biography</h2>
-                <p className='font-medium'> Hi, I&apos;m CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
+                <p className='font-medium'> Hi, I&apos;m CHOKOTE, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
                       and user-centered digital experiences. With 4 years of experience in the field. I am always looking for 
                       new and innovative ways to bring my clients&apos; visions to life.
                 </p>

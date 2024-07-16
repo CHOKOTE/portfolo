@@ -24,7 +24,7 @@ const Logo = () => {
           transition: { duration: 1, repeate: Infinity },
         }}
       >
-        CB
+        CH
       </MotionLink>
     </div>
   );

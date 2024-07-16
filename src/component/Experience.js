@@ -8,7 +8,7 @@ import LiIcon from './LiIcon'
       return <li ref={ref} className='my-8  sm:pl-24 md:w-[80%] first:mt-0 last:mb-0 w-[60%] flex flex-col items-center justify-between mx-auto'>
            <LiIcon reference={ref}/>
            <div>
-               <h3 className='text-2xl font-bold capitalize sm:text-xl xs:text-lg'>{position}&nbsp;<a className='text-primary dark:text-primaryDark' href={companyLink}>@{company}</a></h3>
+               <h3 className='text-2xl font-bold capitalize sm:text-xl xs:text-lg'>{position}&nbsp;<a className='text-primary dark:text-primaryDark' href={companyLink} target='_blank'>@{company}</a></h3>
                <span className='capitalize font-meduim text-dark/75 dark:text-light/75 xs:text-sm'>
                  {time} | {address}
                </span>
@@ -29,29 +29,25 @@ const Experience = () => {
         <motion.div style={{ scaleY: scrollYProgress}} className='absolute h-full left-9 w-[4px] top-0 dark:bg-light bg-dark origin-top'/>
           <ul  className='ml-4 flex flex-col items-start justify-between w-full'>
              
-             <Detail position={'Software Engineer'}  time={'2022-Present '} company={'Google'}
-                     address={' Mountain View, CA'}  companyLink={'www.google.com'} work="Worked on a team responsible for developing new features for Google's 
-                     search engine, including improving the accuracy and relevance of search results and 
+             <Detail position={'Software Engineer'}  time={'2022-Present '} company={'africashore'}
+                     address={' Douala akwa'}  companyLink={'www.africashore.com'} work="Worked on a team responsible for developing new features for africashore, 
+                      including improving the accuracy and relevance of search results and 
                      developing new tools for data analysis and visualization."
              />
-              <Detail position={'Software Engineer'}  time={'2022-Present '} company={'Google'}
-                     address={' Mountain View, CA'}  companyLink={'www.google.com'} work="Worked on a team responsible for developing new features for Google's 
-                     search engine, including improving the accuracy and relevance of search results and 
+              <Detail position={'Software Engineer'}  time={'2022-Present '} company={'africashore'}
+                     address={' Douala akwa'}  companyLink={'www.google.com'} work="Worked on a team responsible for developing new features for africashore, including improving the accuracy and relevance of search results and 
                      developing new tools for data analysis and visualization."
              />
-              <Detail position={'Software Engineer'}  time={'2022-Present '} company={'Google'}
-                     address={' Mountain View, CA'}  companyLink={'www.google.com'} work="Worked on a team responsible for developing new features for Google's 
-                     search engine, including improving the accuracy and relevance of search results and 
+              <Detail position={'Software Engineer'}  time={'2022-Present '} company={'africashore'}
+                     address={' Douala akwa'}  companyLink={'www.africashore.com'} work="Worked on a team responsible for developing new features for africashore, including improving the accuracy and relevance of search results and 
                      developing new tools for data analysis and visualization."
              />
-              <Detail position={'Software Engineer'}  time={'2022-Present '} company={'Google'}
-                     address={' Mountain View, CA'}  companyLink={'www.google.com'} work="Worked on a team responsible for developing new features for Google's 
-                     search engine, including improving the accuracy and relevance of search results and 
+              <Detail position={'Software Engineer'}  time={'2022-Present '} company={'africashore'}
+                     address={' Douala akwa'}  companyLink={'www.africashore.com'} work="Worked on a team responsible for developing new features for africashore, including improving the accuracy and relevance of search results and 
                      developing new tools for data analysis and visualization."
              />
-              <Detail position={'Software Engineer'}  time={'2022-Present '} company={'Google'}
-                     address={' Mountain View, CA'}  companyLink={'www.google.com'} work="Worked on a team responsible for developing new features for Google's 
-                     search engine, including improving the accuracy and relevance of search results and 
+              <Detail position={'Software Engineer'}  time={'2022-Present '} company={'africashore'}
+                     address={' Douala akwa'}  companyLink={'www.africashore.com'} work="Worked on a team responsible for developing new features for africashore, including improving the accuracy and relevance of search results and 
                      developing new tools for data analysis and visualization."
              />
             

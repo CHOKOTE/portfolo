@@ -8,8 +8,8 @@ const Footer = () => {
         <Layout classname='py-8 flex items-center lg:flex-col lg:py-6 justify-between'>
             <span>{new Date().getFullYear}&copy; All Rights Reserved</span>
 
-            <div className="lg:py-2 flex items-center">Build with <span className='text-2xl dark:text-primaryDark text-primary px-1'>&#9825;</span>
-                by&nbsp;<Link href={'/'} className='underline' target='_blank'>Codebucks</Link>
+            <div className="lg:py-2 flex items-center">Build  <span className='text-2xl dark:text-primaryDark text-primary px-1'>&#9825;</span>
+                by&nbsp;<Link href={'/'} className='underline' target='_blank'>CHOKOTE</Link>
             </div>
 
             <Link href={'/'} target='_blanl' className='underline'>say hello</Link>

@@ -46,10 +46,11 @@ const Skill = () => {
         <Skills name={"JAVASCRIPT"} x={"10vw"} y={"20vw"} />
         <Skills name={"NEXTJS"} x={"-15vw"} y={"-15vw"} />
         <Skills name={"REACTJS"} x={"15vw"} y={"-15vw"} />
-        <Skills name={"FIGMA"} x={"-5vw"} y={"15vw"} />
+        <Skills name={"POWER BI CERTIFICATION"} x={"-5vw"} y={"15vw"} />
         <Skills name={"WEB DESIGN"} x={"10vw"} y={"5vw"} />
         <Skills name={"TAILWIND"} x={"25vw"} y={"-2vw"} />
-        <Skills name={"FIREBASE"} x={"-5vw"} y={"-5vw"} />
+        <Skills name={"SQL SERVER"} x={"-5vw"} y={"-5vw"} />
+        <Skills name={"POWER PLATEFORM"} x={"-20vw"} y={"8vw"} />
       </div>
     </>
   );
